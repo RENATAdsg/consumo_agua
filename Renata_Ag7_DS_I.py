@@ -6,7 +6,7 @@ consumo_agua=float(input("Digite o consumo mensal de agua em M³(Metros cúbicos
 
 #Processamento de dados 
 if imovél == "comercial":
-    print("Tarifa comercial aplicada – consulte o plano corporativo.")
+    print("Tarifa comercial aplicada, consulte o plano corporativo.")
 
 elif consumo_agua <10 and imovél == "apartamento":
     print("Consumo econômico, excelente controle de água!")
