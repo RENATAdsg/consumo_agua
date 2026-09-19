@@ -11,7 +11,7 @@ if imovél == "comercial":
 elif consumo_agua <10 and imovél == "apartamento":
     print("Consumo econômico, excelente controle de água!")
 
-elif imovél == "apartamento" or (imovél == "casa" and consumo_agua <=25):
+elif imovél == "apartamento" or (imovél == "casa" and consumo_agua <= 25):
     print("Consumo moderado, dentro do padrão residencial.")
 
 else:
