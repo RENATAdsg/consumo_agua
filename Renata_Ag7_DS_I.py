@@ -4,7 +4,7 @@ print("Olá, seja bem_vindo(a)")
 imovél=input("Digite qual seu Imovél(ex: Casa, comercial ou apartamento):"). lower()
 consumo_agua=float(input("Digite o consumo mensal de agua em M³(Metros cúbicos):"))
 
-#Processamento de dados 
+#Processamento de dados e saída
 if imovél == "comercial":
     print("Tarifa comercial aplicada, consulte o plano corporativo.")
 
